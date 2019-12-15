@@ -21,7 +21,7 @@ int main()
 {
 	int n;
 	scanf("%d",&n);
-	printf("%d¹øÂ° ÇÇº¸³ªÄ¡ ¼ö¿­ : %d",n,Fibo(n));
+	printf("%dÂ¹Ã¸Ã‚Â° Ã‡Ã‡ÂºÂ¸Â³ÂªÃ„Â¡ Â¼Ã¶Â¿Â­ : %d",n,Fibo(n));
 	
 	return 0;
 }
