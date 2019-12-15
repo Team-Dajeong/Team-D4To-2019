@@ -4,12 +4,12 @@ void Hanoi(int n, char from,char by, char to)
 {
 	if(n == 1)
 	{
-		printf("1¹ø ¿ø¹İÀ» %c ¿¡¼­ %c ·Î ÀÌµ¿\n",from,to);
+		printf("1ë²ˆ ì›ë°˜ì„ %c ì—ì„œ %c ë¡œ ì´ë™\n",from,to);
 	}
 	else
 	{
 		Hanoi(n-1,from,to,by);
-		printf("%d¹ø ¿ø¹İÀ» %c¿¡¼­ %c·Î ÀÌµ¿\n",n,from,to);
+		printf("%dë²ˆ ì›ë°˜ì„ %cì—ì„œ %cë¡œ ì´ë™\n",n,from,to);
 		Hanoi(n-1,by,from,to);
 	}
 }
